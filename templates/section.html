@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{%- block title -%}
+{{ section.title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block main -%}
+{%- filter indent -%}{%- filter indent -%}
+{%- if section.content -%}
+<header class="content {%- if section.extra.framed %} framed{%- endif -%}">
+    {{ section.content | indent | safe }}
+</header>
+{% endif -%}
+{%- endfilter -%}{%- endfilter -%}
+{%- endblock -%}
