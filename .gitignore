@@ -1,2 +1,5 @@
+# Build
+build/
+
+# Output
 public/
-static/processed_images/

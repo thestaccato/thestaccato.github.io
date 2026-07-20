@@ -1,0 +1,17 @@
+title = "Yash Sharma"
+name = "Yash Sharma"
+description = "Personal site"
+url = "https://thestaccato.github.io"
+baseurl = ""
+locale = "en-US"
+
+[author]
+name = "Yash Sharma"
+bio = "Software Engineer and an independent Researcher"
+email = "none@example.org"
+# orcid = "https://orcid.org"
+github = "thestaccato"
+codeberg = "thestaccato"
+# matrix = "https://matrix.org"
+# linkedin = "yourlinkedin"
+# sourcehut = "https://sr.ht"
